@@ -1,0 +1,279 @@
+body
+{
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 200%;
+    color: #565656;
+}
+
+.topbar
+{
+    width: 100%;
+    height: 15%;
+    background-color: #F8F8F8;
+/*    position: fixed;*/
+    top: 0;
+}
+
+.programmer-image
+{
+    position: relative;
+    width: 5%;
+    border-radius: 50%;
+    border: 2px #CCCCCC solid;
+    float: left;
+    left: 10%;
+    margin: 1%;
+}
+
+.topbar-links
+{
+    text-decoration: none;
+    position: relative;
+    float: right;
+    right: 10%;
+    margin-left: 1.7rem;
+    font-weight: bold;
+    margin-top: 2.3rem;
+    color: #565656;
+}
+
+.topbar-links:hover
+{
+    color: #9A9A9A;
+}
+
+.back-image
+{
+    height: 50%;
+}
+
+h1
+{
+    text-align: center;
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+}
+
+p
+{
+    text-align: center;
+    position: relative;
+    bottom: 5%;
+}
+
+.top-container
+{
+    width: 100%;
+    height: 720px;
+    background-color: #E9E9E9;
+}
+
+hr
+{
+    border: 10px dotted;
+    color: #CCCCCC;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.description-bar
+{
+    width: 100%;
+    background-color: #D9FFBF;
+    height: 250px;
+    line-height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.content-images
+{
+    position: relative;
+    height: 80%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.skills-head
+{
+    font-size: 150%;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    background-color: #FFE6E0;
+    width: 40%;
+    padding: 10px;
+    margin: 50px auto;
+    border: dashed #CCCCCC 2px;
+    border-radius: 30px;
+}
+
+.text
+{
+    width: 50%;
+    margin: 20px auto;
+    font-size: 80%;
+    line-height: 2;
+}
+
+.content
+{
+    width: 75%;
+    margin: auto;
+    background-color: #FFF5DD;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    border-top: 1.5px #CCCCCC solid;
+    background-color: #EAEEBF;
+    line-height: 200px;
+}
+
+.navin-image
+{
+    width: 20%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.design
+{
+    font-size: 50%;
+    margin: auto 0;
+    width: 25%;
+    float: left;
+}
+
+.contact-links
+{
+    text-decoration: none;
+    margin-right: 35px;
+    float: right;
+    color: #CD7110;
+    font-size: 80%;
+}
+
+.copyright
+{
+    font-size: 50%;
+}
+
+
+/*...Special for Contact Us page...*/
+
+.form-container
+{
+    width: 100%;
+    height: 720px;
+    background-image: url(Images/contactUs.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.form-title
+{
+    padding: 10px;
+    font-size: 120%;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+.contactus-image
+{
+    width: 100%;
+    position: relative;
+    top: -5px;
+}
+
+.form-input
+{
+    width: 50%;
+    height: 10%;
+    border-radius: 20px;
+}
+
+.comments
+{
+    width: 50%;
+    height: 30%;
+}
+
+.contact-form
+{
+    padding: 10px;
+    width: 50%;
+    height: 70%;
+    margin: 10px auto;
+    font-size: 80%;
+    text-align: center;
+    border: 2px #CCCCCC dashed;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.submit-button
+{
+  background: #edabab;
+  background-image: -webkit-linear-gradient(top, #edabab, #c72222);
+  background-image: -moz-linear-gradient(top, #edabab, #c72222);
+  background-image: -ms-linear-gradient(top, #edabab, #c72222);
+  background-image: -o-linear-gradient(top, #edabab, #c72222);
+  background-image: linear-gradient(to bottom, #edabab, #c72222);
+  -webkit-border-radius: 45;
+  -moz-border-radius: 45;
+  border-radius: 45px;
+  -webkit-box-shadow: 0px 0px 12px #666666;
+  -moz-box-shadow: 0px 0px 12px #666666;
+  box-shadow: 0px 0px 12px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #99dbab 2px;
+  text-decoration: none;
+}
+
+.submit-button:hover 
+{
+  background: #9bf2ac;
+  background-image: -webkit-linear-gradient(top, #9bf2ac, #139e2f);
+  background-image: -moz-linear-gradient(top, #9bf2ac, #139e2f);
+  background-image: -ms-linear-gradient(top, #9bf2ac, #139e2f);
+  background-image: -o-linear-gradient(top, #9bf2ac, #139e2f);
+  background-image: linear-gradient(to bottom, #9bf2ac, #139e2f);
+  text-decoration: none;
+}
+
+.contactus-hr
+{
+    position: relative;
+    margin: 50px auto;
+    border: 10px #CCCCCC dotted;
+    border-bottom: none;
+    width: 5%;
+}
+
+/*
+.contactus-copyright
+{
+    position: relative;
+    font-size: 50%;
+}
+*/
+
+::-webkit-scrollbar {
+display: none;
+}
